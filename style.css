@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background-image.jpg')no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+   
+    display: flex;
+    /* padding: 22px; */
+    margin-left: 440px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 23px;
+ 
+}
+h1{
+    color: orange;
+}
+
+
+
+.course-info {
+    text-align: left;
+    color: white;
+    padding: 50px;
+}
+
+.course-info h1 {
+    font-size: 40px;
+}
+
+.course-info button {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+
+.login-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-top: 50px;
+    width: 300px;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+.login-section form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.login-section button {
+    background-color: orange;
+    padding: 10px;
+    width: 100%;
+    border: 10px;
+}
+body {background-image: url(https://th.bing.com/th/id/OIP.W-Ulsvj-qR1cQgjYJ_OMfQHaD3?pid=ImgDet&w=184&h=96&c=7&dpr=1.3);}
