@@ -1,0 +1,112 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-image: url(pexels-pixabay-268533.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;  
+    color: white;  
+}  
+
+.titl{
+    color: orangered;
+}
+header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 20px;  
+    background-color: rgba(0, 0, 0, 0.7);  
+    color: orangered;
+
+}  
+
+.logo {  
+    font-size: 24px;  
+    font-weight: bold;  
+}  
+
+nav ul {  
+    list-style: none;  
+    display: flex;  
+    gap: 20px;  
+}  
+
+nav a {  
+    color: orange;  
+    text-decoration: none;  
+}  
+
+.search-bar {  
+    display: flex;  
+}  
+
+.search-bar input {  
+    padding: 5px;  
+}  
+
+.search-bar button {  
+    padding: 5px;  
+}  
+
+main {  
+    display: flex;  
+    justify-content: space-between;  
+    padding: 50px;  
+}  
+
+.course-info {  
+    max-width: 60%;  
+}  
+
+.course-info h1 {  
+    font-size: 48px;  
+}  
+
+.course-info h1 span {  
+    color: orange;  
+}  
+
+.join-us {  
+    background-color: orange;  
+    color: black;  
+    padding: 10px 20px;  
+    border: none;  
+    cursor: pointer;  
+}  
+
+.login-form {  
+    background-color: rgba(0, 0, 0, 0.7);  
+    padding: 20px;  
+    border-radius: 5px;  
+    align-items: center;
+    text-align: center;
+}  
+
+.login-form input {  
+    width: 100%;  
+    padding: 10px;  
+    margin: 10px 0;  
+    border-radius: 10px;
+    /* margin-right: 30px; */
+}  
+
+.login-form button {  
+    background-color: orange;  
+    color: black;  
+    padding: 10px;  
+    border: none;  
+    cursor: pointer;  
+   
+}  
+
+.social-login {  
+    margin-top: 10px;  
+}  
+
+.social-icons a {  
+    margin-right: 10px;  
+    color: white;  
+    text-decoration: none;  
+}
